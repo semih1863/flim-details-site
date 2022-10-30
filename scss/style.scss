@@ -1,0 +1,116 @@
+#header{
+    background: url(../public/img/interstellar-astronaut-4k-yr.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    // opacity: 0.9;
+    position: relative;
+}
+.header-title{
+    position: absolute;
+    left: 72%;
+    top: 15%;
+    font-size: 40px;
+    color: #ccc;
+}
+.navbar{
+    background-color: #333;
+    opacity: 0.5;
+    max-width: 100%;
+}
+.navbar-left h2{
+    color: #fff;
+    span{
+        color: goldenrod;
+    }
+    
+}
+.navbar-right ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    padding-top: 15px;
+}
+.navbar-right ul li{
+    padding: 0 20px;
+    font-size: 20px;
+}
+.navbar-right ul li a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+ .navbar-right ul li a:hover{
+     border-bottom: 2px solid yellow;
+ }
+ .navbar form div{
+    color: #fff;
+    padding-top: 3px;
+    padding-right: 10px;
+    font-size: 20px;
+     
+    
+ }
+ .navbar form div span{
+    color: yellow;
+ }
+ .info .info-right{
+    display: flex;
+    justify-content: spab;
+ }
+ .content{
+    display: flex;
+    text-align: center;
+    color: #fff;
+ }
+ .content i{
+    color: yellow;
+    font-size: 25px;
+ }
+ .content p span{
+    font-weight: bold;
+ }
+ .info-left h2{
+    color: #fff;
+ }
+ .info-left p{
+    color: #ccc;
+ }
+ .info-left ul{
+    list-style: none;
+    text-align: center;
+ }
+ .info-left ul li{
+    padding: 0 5px;
+ }
+ .info-left ul li a{
+    text-decoration: none;
+    color: #fff;
+ }
+ .info-right h6{
+    color: #ccc;
+ }
+ .galery img{
+   height: 100vh;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    padding: 2px;
+   }
+   .galery-right h6{
+    color: rgb(54, 54, 248);
+   }
+   .yazarlar{
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 1px dotted #ccc;
+
+   }
+   .yazarlar h5{
+    padding: 0 20px;
+
+   }
